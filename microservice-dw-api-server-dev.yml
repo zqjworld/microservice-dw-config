@@ -110,7 +110,7 @@ mybatis-plus:
     
 # 日志
 logging:
-  file: D:/logs/com.xm.api.log
+  file: D:/logs/microservice-dw-api-server.log
   
 # 忽略鉴权url
 ignored:
