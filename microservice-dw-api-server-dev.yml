@@ -110,4 +110,17 @@ mybatis-plus:
     
 # 日志
 logging:
-  file: D:/logs/com.xm.admin.log
+  file: D:/logs/com.xm.api.log
+  
+# 忽略鉴权url
+ignored:
+  urls:
+    - /permission/getMenuList/**
+    - /user/regist
+    - /common/**
+    - /druid/**
+    - /**/*.js
+    - /**/*.css
+    - /**/*.png
+    - /**/*.ico
+    - /test/**
